@@ -1,0 +1,9 @@
+application: voyagewithus-api
+
+cron:
+- description: flight update info from flightstats
+  url: /flightupdate
+  schedule: every 5 minutes
+- description: trip update job
+  url: /tripupdate
+  schedule: every 60 minutes
